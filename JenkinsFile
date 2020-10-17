@@ -1,3 +1,0 @@
-node {
-sh ‘echo HelloWorld’
-}

@@ -24,13 +24,12 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - Realm
-    - RealmSwift
-  trunk:
     - Alamofire
     - JSONWebToken
     - Kingfisher
     - Moya
+    - Realm
+    - RealmSwift
     - Result
     - Unbox
 
