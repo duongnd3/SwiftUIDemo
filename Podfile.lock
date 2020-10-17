@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (4.9.1)
+  - JSONWebToken (2.2.0)
+  - Kingfisher (5.7.0)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Realm (3.17.1):
+    - Realm/Headers (= 3.17.1)
+  - Realm/Headers (3.17.1)
+  - RealmSwift (3.17.1):
+    - Realm (= 3.17.1)
+  - Result (4.1.0)
+  - Unbox (4.0.0)
+
+DEPENDENCIES:
+  - JSONWebToken
+  - Kingfisher (= 5.7.0)
+  - Moya (= 13.0.1)
+  - RealmSwift (= 3.17.1)
+  - Unbox
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Realm
+    - RealmSwift
+  trunk:
+    - Alamofire
+    - JSONWebToken
+    - Kingfisher
+    - Moya
+    - Result
+    - Unbox
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  JSONWebToken: 6fae32489632658d563dd6952a5c34020ea813e4
+  Kingfisher: c7d211b54f1f30d8060aadab177d52b4349c825b
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Realm: c204f1a890f07dea43b14132a6aad118c054b8f2
+  RealmSwift: 4d3c9233544b9cd08a8913e0872b9038eb99b054
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  Unbox: d2677af8fde59a30141e02981b11cb6a0e3b6bc5
+
+PODFILE CHECKSUM: e1386ea41584358068004257d8eff30e66650def
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,18 @@
+//
+//  ProductRelease.xcconfig
+//  SwiftUIDemo
+//
+//  Created by グェン ディン ズォン on 2020/07/21.
+//  Copyright © 2020 NDBlack. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../App/Product.xcconfig"
+#include "Pods/Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo.product_release.xcconfig"
+
+PRODUCT_BUNDLE_IDENTIFIER = jp.co.skanderipro.SwiftUIDemo-prd
+APP_PROVISIONING = SwiftUIDemo PRD Provisioning
+APP_IPHONE_SIGNING = iPhone Distribution: Duong Nguyen Dinh (3JA5PW9F44)
+APP_IPHONE_TEAM = 3JA5PW9F44

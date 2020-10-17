@@ -1,0 +1,18 @@
+//
+//  StagingDebug.xcconfig
+//  SwiftUIDemo
+//
+//  Created by グェン ディン ズォン on 2020/07/21.
+//  Copyright © 2020 NDBlack. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../App/Staging.xcconfig"
+#include "Pods/Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo.staging_debug.xcconfig"
+
+PRODUCT_BUNDLE_IDENTIFIER = jp.co.skanderipro.SwiftUIDemo-stg
+APP_PROVISIONING = SwiftUIDemo STG Provisioning
+APP_IPHONE_SIGNING = iPhone Developer: Nghia Duong (3US6W8696S)
+APP_IPHONE_TEAM = 3JA5PW9F44
