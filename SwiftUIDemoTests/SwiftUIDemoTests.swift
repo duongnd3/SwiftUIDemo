@@ -26,6 +26,10 @@ class SwiftUIDemoTests: XCTestCase {
         
         XCTAssertEqual(ndFamily.name, "DuongND")
         XCTAssertEqual(ndFamily.age, 27)
+        
+        let chil = NDFamily(name: "PhuND", age: 0)
+        
+        XCTAssertLessThan(chil.age, ndFamily.age)
     }
 
     func testPerformanceExample() {
