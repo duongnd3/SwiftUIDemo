@@ -22,6 +22,10 @@ class SwiftUIDemoTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         // add test
+        let ndFamily = NDFamily(name: "DuongND", age: 27)
+        
+        XCTAssertEqual(ndFamily.name, "DuongND")
+        XCTAssertEqual(ndFamily.age, 27)
     }
 
     func testPerformanceExample() {
@@ -31,4 +35,14 @@ class SwiftUIDemoTests: XCTestCase {
         }
     }
 
+}
+
+struct NDFamily {
+    var name: String?
+    var age: Int
+    
+    init(name: String, age: Int) {
+        self.name = name
+        self.age = age
+    }
 }
