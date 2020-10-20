@@ -89,3 +89,4 @@ iOSInjectionProject/
 # GoogleService-Info-UAT.plist
 # GoogleService-Info-Staging.plist
 # GoogleService-Info-Product.plist
+Podfile.lock

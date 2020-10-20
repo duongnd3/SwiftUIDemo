@@ -119,9 +119,7 @@
 		95A371C93A98B65D9D2B2C38 /* Pods-SwiftUIDemo.staging_release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDemo.staging_release.xcconfig"; path = "Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo.staging_release.xcconfig"; sourceTree = "<group>"; };
 		99092A8FBEFC61823A986B30 /* Pods-SwiftUIDemo.uat_debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDemo.uat_debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo.uat_debug.xcconfig"; sourceTree = "<group>"; };
 		9F7801CA348C495A7D3D72AD /* Pods_SwiftUIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB6F150F5170AFD3E8FEC0E4 /* Pods-SwiftUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B6249F66D55327EB37736AFD /* Pods-SwiftUIDemo.product_release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDemo.product_release.xcconfig"; path = "Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo.product_release.xcconfig"; sourceTree = "<group>"; };
-		F9B25B1F50F7E7ED272735A0 /* Pods-SwiftUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDemo.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -456,8 +454,6 @@
 		D9ADF6CDD0BB17F49DCE5A9F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AB6F150F5170AFD3E8FEC0E4 /* Pods-SwiftUIDemo.debug.xcconfig */,
-				F9B25B1F50F7E7ED272735A0 /* Pods-SwiftUIDemo.release.xcconfig */,
 				99092A8FBEFC61823A986B30 /* Pods-SwiftUIDemo.uat_debug.xcconfig */,
 				2911610F980813880E086BEB /* Pods-SwiftUIDemo.uat_release.xcconfig */,
 				54A13FFBD46DAD7A621DCB4C /* Pods-SwiftUIDemo.staging_debug.xcconfig */,
